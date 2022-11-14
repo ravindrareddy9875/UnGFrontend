@@ -1,0 +1,71 @@
+.Heading1{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+.Content1{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+}
+.video1{
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 34%;
+}
+.line1{
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.TechStack{
+    color:#EDEF85;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 29px;
+    margin-left: 80px;
+
+
+}
+.TechStacks{
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 29px;
+    margin-left:80px
+}
+.whatBuild{
+    color: white;
+    margin-left: 35%;
+    font-weight: 800;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 29px;
+    margin-left:80px
+}
+.whatBuild1{
+    color: white;
+ 
+    /* width: 20%; */
+
+    text-align: center;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    /* margin-left:790px */
+}
+.Chapters{
+    color: #8685EF;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 28px;
+    padding-left: 45px;
+    margin-bottom: -100px;
+}

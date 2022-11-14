@@ -1,0 +1,27 @@
+.ChapterBox {
+  border: 1px solid #2a2e35;
+  width: 300px;
+  height: 200px;
+  background-color: #2a2e35;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.ChapterBox:hover {
+  width: 310px;
+  height: 210px;
+}
+.AllChapters {
+  margin-top: 190px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #12181c;
+  padding: 40px calc((100% - (255px * 3)) / 3);
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 155px;
+}
+.pageIcon {
+  margin-top: -15px;
+}

@@ -1,0 +1,39 @@
+.Username{
+font-size: 27px;
+font-weight: 600;
+text-align: center;
+margin-top: 100px ;
+color: white;
+margin-left: 80px;
+}
+.Logout{
+    background-color: white;
+    text-align: center;
+    margin-top: -60px;
+
+}
+.Password{
+    background-color: white;
+    width:fit-content;
+    padding:10px;
+    margin-left: 48%;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+font-size: 18px;
+}
+.Tip{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    margin-left: 80px;
+}
+.FeedBack{
+    font-weight: 600;
+font-size: 25px;
+text-align: center;
+color:#FF8484;
+margin-left: 80px;
+margin-top: 40px;
+}

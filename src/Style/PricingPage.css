@@ -1,0 +1,531 @@
+.navbar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 80px;
+}
+.UnGraduation1 {
+  font-size: 40px;
+  margin-left: 20px;
+  /* margin-top: -15px; */
+}
+
+.navbar3 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.navbar3 :hover {
+  border: 1px solid rgba(23, 70, 162, 255);
+  background-color: rgba(23, 70, 162, 255);
+  color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: 20px;
+  margin-left: 10px;
+}
+#AboutUs :hover {
+  border: 1px solid rgba(23, 70, 162, 255);
+  background-color: rgba(23, 70, 162, 255);
+  color: red;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: 20px;
+  margin-left: 10px;
+}
+.navbarItems1 {
+  font-size: 17px;
+  padding: 20px;
+  margin-right: 20px;
+  color: blue;
+  cursor: pointer;
+}
+#button {
+  border: 1px solid rgba(23, 70, 162, 255);
+  background-color: rgba(23, 70, 162, 255);
+  color: white;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  width: 60px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  height: 20px;
+  margin-left: 20px;
+}
+.MainContent1 {
+  margin-top: 150px;
+  text-align: center;
+}
+.firstHeading {
+  font-size: 50px;
+  font-weight: 700;
+}
+.Subscription {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.firstBox,
+.thirdBox {
+  border: 1px solid white;
+  box-shadow: 4px 11px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 20px;
+}
+.secondBox {
+  border: 1px solid rgba(11, 6, 65, 255);
+  border-radius: 20px;
+  background-color: rgba(11, 6, 65, 255);
+  box-shadow: 4px 11px 20px rgba(11, 6, 65, 0.25);
+  color: white;
+  padding: 20px;
+}
+.timePeriod {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.question {
+  font-weight: 550;
+  font-size: 23px;
+  /* padding-left: 15px; */
+  text-align: center;
+}
+.options {
+  font-size: 20px;
+  padding-left: 25px;
+}
+.line {
+  color: #a9a9aa;
+  padding-top: 30px;
+}
+.pricing {
+  font-size: 25px;
+  padding-right: 10px;
+}
+#Amount {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.chooseButton {
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid #1746a2;
+  background-color: #1746a2;
+  color: white;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  box-shadow: 4px 11px 20px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.BottomLast {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+.freeTrail {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+.freeTrailButton {
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border: 1px solid #1746a2;
+  background-color: #1746a2;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 20px 10px 20px;
+  font-weight: 700;
+  box-shadow: 4px 11px 20px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.CopyRight1 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 40px;
+}
+
+/* @media only screen and (max-width: 500px) {
+
+        .navbar2{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            width:100%;
+            background-color: white;
+            width:max-content;
+            }
+            .UnGraduation{
+               
+                margin-left: 20px;
+                margin-top: 60px;
+                font-size: 40px;    
+
+               
+            }
+            
+            ul{
+                display: flex;
+                flex-direction: row;
+                list-style:none;
+               
+            }
+            .navbarItems1{
+                font-size: 40px;
+                color: blue;
+                cursor: pointer;
+                
+            
+            }
+            #button1{
+                border: 2px solid rgba(23,70,162,255);
+                background-color:rgba(23,70,162,255);
+                color: white;
+                border-radius: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-bottom: 15px;
+                margin-left: 20px;
+            }
+
+            .MainContent1{
+                width:max-content;
+                margin-top: 200px;
+                text-align: center;
+            }
+            .firstHeading{
+               
+               font-size: 65px;
+               font-weight: 600;
+            }
+            .Subscription{
+                display: flex;
+                flex-direction: column;
+                width:max-content;
+                align-self: center;
+                align-content: center;
+                margin-top: 100px;
+            }
+            .firstBox,.thirdBox{
+                border: 1px solid white;
+                margin: 10px;
+               box-shadow: 4px 11px 20px 5px rgba(0, 0, 0, 0.5);
+               border-radius: 20px;
+               padding: 10px;
+                margin-left: 50px;
+                margin-bottom: 20px;
+
+            }
+            .secondBox{
+                border: 1px solid rgba(11,6,65,255);
+                border-radius: 20px;
+                background-color: rgba(11,6,65,255);
+                box-shadow: 4px 11px 20px rgba(11,6,65,0.25);
+                color: white;
+                padding: 10px;
+                width:max-content;
+                margin-left: 50px;
+                margin-bottom: 20px;
+
+
+            }
+            .secondBox .timePeriod{
+                font-size: 105px;
+            }
+            .timePeriod{ 
+                font-size: 90px;
+                font-weight: bold;
+               
+                
+            }
+            .question{
+                
+                text-align: center;
+                font-weight: 600;
+                font-size: 60px;
+                padding-left: 15px;
+            }
+            .options{
+              
+                text-align: center;
+                font-size: 50px;
+                padding-left: 25px;
+            }
+            .line{
+                color: #A9A9AA;
+                padding-top:30px ;
+            }
+            .pricing{
+                text-align: center;
+                font-size: 60px;
+                padding-right: 10px;
+            }
+            #Amount{
+                
+                font-size: 70px;
+                font-weight: bolder;
+            }
+            .chooseButton{
+                text-align: center;
+                font-size: 60px;
+                border: 1px solid #1746A2;
+                background-color: #1746A2;
+                color: white;
+                border-radius: 12px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-left: 70px;
+                margin-right: 70px;
+                box-shadow: 4px 11px 20px rgba(0, 0, 0, 0.35);
+                cursor: pointer;
+            }
+            .BottomLast{
+                width: max-content;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 70px;
+                margin-bottom: 80px;
+            }
+            .freeTrail{
+                font-size: 60px;
+                font-weight: bolder;
+                margin-left: 20px;
+            }
+            .freeTrailButton{
+                text-align: center;
+                font-size: 55px;
+                margin-left: 40px;
+                margin-top: 30px;
+                border: 1px solid #1746A2;
+                background-color: #1746A2;
+                color: white;
+                border-radius: 12px;
+               padding: 10px 20px 10px 20px;
+               font-weight: 700;
+               box-shadow: 4px 11px 20px rgba(0, 0, 0, 0.35);
+               cursor: pointer;
+        
+            }
+           
+            .CopyRight1{
+                background-color: black;
+                color: white;
+                padding: 15px;
+                margin-bottom: -10px;
+                margin-left: -10px;
+                margin-right: -7px;
+                padding-left: 200px;
+                padding-right: 130px;
+                font-size: 50px;
+                width: max-content;
+            }
+
+    } */
+@media only screen and (max-width: 500px) {
+  .navbar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 140px;
+    margin-top: 0px;
+    /* background-color: red; */
+  }
+
+  #UnGraduation1 {
+    font-size: 20px;
+    text-align: center;
+    /* margin-top: 50px; */
+  }
+
+  .navbar3 {
+    display: flex;
+
+    flex-direction: row;
+
+    list-style: none;
+    margin-left: 0px;
+
+    height: 1px;
+    align-self: flex-start;
+  }
+  .navbarItems1 {
+    margin-top: 0px;
+    font-size: 15px;
+    color: blue;
+    cursor: pointer;
+  }
+  #button1 {
+    border: 1px solid rgba(23, 70, 162, 255);
+    background-color: rgba(23, 70, 162, 255);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+  }
+  .MainContent1 {
+    /* width:max-content; */
+    margin-top: 150px;
+    text-align: center;
+    /* margin-right: 40px; */
+  }
+  .firstHeading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .Subscription {
+    display: flex;
+    flex-direction: column;
+    /* width:max-content; */
+    align-self: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .firstBox,
+  .thirdBox {
+    border: 1px solid white;
+    margin: 10px;
+    box-shadow: 4px 11px 20px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    /* margin-left: 50px; */
+    margin-bottom: 20px;
+  }
+  .secondBox {
+    border: 1px solid rgba(11, 6, 65, 255);
+    border-radius: 20px;
+    background-color: rgba(11, 6, 65, 255);
+    box-shadow: 4px 11px 20px rgba(11, 6, 65, 0.25);
+    color: white;
+    padding: 10px;
+    /* width:max-content; */
+    /* margin-left: 50px; */
+    margin-bottom: 20px;
+  }
+  .secondBox .timePeriod {
+    font-size: 25px;
+  }
+  .timePeriod {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .question {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .options {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 25px;
+  }
+  .line {
+    color: rgb(100, 100, 100);
+    padding-top: 30px;
+    text-align: center;
+  }
+  .pricing {
+    text-align: center;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  #Amount {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .chooseButton {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #1746a2;
+    background-color: #1746a2;
+    color: white;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    box-shadow: 4px 11px 20px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+  }
+  .BottomLast {
+    /* width: max-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  .freeTrail {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+  }
+  .freeTrailButton {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border: 1px solid #1746a2;
+    background-color: #1746a2;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    box-shadow: 4px 11px 20px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+  }
+
+  .CopyRight1 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-bottom: 0px;
+    /* margin-left: -10px; */
+    margin-right: 0px;
+    /* padding-left: 200px; */
+    /* padding-right: 130px; */
+    font-size: 13px;
+    /* width: max-content; */
+  }
+}

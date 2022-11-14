@@ -1,0 +1,31 @@
+.MainCourse {
+  background-color: #12181c;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 65px;
+}
+.videoPart {
+  padding-top: 30px;
+  text-align: center;
+}
+.Endline {
+  padding-top: 70px;
+  display: block;
+  margin: 0 auto;
+}
+.StartLine {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8685ef;
+}
+
+.CourseCards {
+  display: flex;
+  flex-direction: column;
+  
+  /* flex-wrap: wrap;  */
+   /* justify-content: space-between; */
+  /* padding: 40px calc((100% - (255px * 3)) / 10); */
+}

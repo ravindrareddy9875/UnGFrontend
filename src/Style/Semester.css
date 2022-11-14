@@ -1,0 +1,13 @@
+#SubjectBox :hover{
+
+ width:250px;
+ height:160px;
+}
+.SubjectBox{
+    border:1px solid #2A2E35;
+    width: 244px;
+    height: 150px;
+    background-color: #2A2E35;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

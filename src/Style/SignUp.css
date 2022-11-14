@@ -1,0 +1,329 @@
+.FullPage {
+  height: max-content;
+  background-color: rgba(153, 204, 255, 255);
+  margin-top: -30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.UnGraduation2 {
+  font-size: 40px;
+  margin-left: 20px;
+
+  padding-top: 30px;
+}
+.TipHeading {
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.ActualTip {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-style: normal;
+  line-height: 25px;
+}
+.SignUpCopyRight {
+  padding-top: 10px;
+}
+.MainPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.CreateAccount {
+  font-size: 27px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 200px;
+  padding-top: 5px;
+}
+
+.SignUpHeader {
+  display: flex;
+  flex-direction: row;
+}
+.BackArrow {
+  font-size: 30px;
+  padding-top: 5px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.SignUpPart {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* height: 700px; */
+  /* margin: 50px; */
+  margin-top: 20px;
+  border-radius: 20px;
+  /* padding: 150px; */
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  color: rgba(100, 100, 100, 255);
+  margin: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid white;
+
+  padding: 10px;
+  margin-top: 5px;
+  width: 700px;
+  /* border-radius: 15px; */
+}
+.ErrorMessage {
+  color: red;
+  padding-left: 30px;
+  font-size: 18px;
+}
+::placeholder {
+  color: rgba(200, 200, 200);
+  opacity: 1;
+}
+.SelectCollege,
+.SelectSemester,
+.SelectBranch {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+
+  /* justify-content: space-evenly; */
+}
+.CollegeLabel,
+.SemesterLabel,
+.BranchLabel {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.SelectSemester select {
+  margin-left: 160px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  padding-left: 80px;
+  align-items: center;
+}
+.SelectCollege select {
+  margin-left: 10px;
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.SelectBranch select {
+  margin-left: 170px;
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.note {
+  padding-left: 20px;
+}
+.terms {
+  text-align: center;
+  font-size: 18px;
+}
+.Day1FreeTrailButton {
+  border: 1px solid rgba(23, 70, 162, 255);
+  border-radius: 10px;
+  background-color: rgba(23, 70, 162, 255);
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  /* padding-left: 5px; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 4px 11px 20px rgba(11, 6, 65, 0.5);
+  cursor: pointer;
+}
+.Day1FreeTrailButton :hover {
+  background-color: white;
+  color: rgba(23, 70, 162, 255);
+}
+.HaveAnAccount {
+  text-align: center;
+  color: rgba(150, 150, 150, 255);
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .BackArrow {
+    font-size: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    /* padding-left: 20px; */
+    padding-right: 300px;
+    margin-left: 0px;
+  }
+  .FullPage {
+    background-color: rgba(153, 204, 255, 255);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .UnGraduation2 {
+    /* width: max-content; */
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .MainPart {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .TipHeading {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    /* margin-left: -0px; */
+  }
+  .ActualTip {
+    font-size: 20px;
+    line-height: 25px;
+    /* margin-left: -20px;  */
+    text-align: center;
+  }
+  .SignUpPart {
+    /* width: max-content; */
+    display: flex;
+    /* height: 1550px; */
+    /* height: 900px; */
+    width: 200px;
+    /* margin-right: 120px; */
+    flex-direction: column;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    /* text-align: center; */
+    box-shadow: 10px 11px 20px 10px rgba(11, 6, 65, 0.5);
+    align-self: center;
+  }
+
+  .CreateAccount {
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: bold;
+    width: max-content;
+    margin-top: 0px;
+  }
+  .inputs {
+    color: rgba(100, 100, 100, 255);
+    font-size: 20px;
+    width: 270px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-bottom-color: black;
+
+    margin-top: 15px;
+    /* border-radius: 15px; */
+    margin-left: 0px;
+  }
+  .ErrorMessage {
+    color: red;
+    /* padding-right: 50px; */
+    text-align: center;
+    font-size: 15px;
+  }
+  ::placeholder {
+    color: rgba(150, 150, 150);
+    opacity: 1;
+  }
+  .SelectCollege,
+  .SelectSemester,
+  .SelectBranch {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-left: 0px;
+  }
+  .CollegeLabel,
+  .SemesterLabel,
+  .BranchLabel {
+    font-size: 18px;
+    width: max-content;
+    color: rgba(100, 100, 100);
+    margin-left: 20px;
+  }
+  .SelectSemester select {
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 60px;
+  }
+  .SelectCollege select {
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 35px;
+
+    width: 150px;
+  }
+  .SelectBranch select {
+    /* margin-left: 50px; */
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 60px;
+  }
+  .note {
+    font-size: 18px;
+    /* padding-left: 20px; */
+    margin-top: 20px;
+    margin-left: 0px;
+    /* text-align: center; */
+    width: 350px;
+  }
+  .terms {
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 250px;
+    font-size: 18px;
+    width: 350px;
+  }
+  .Day1FreeTrailButton {
+    border: 1px solid rgba(23, 70, 162, 255);
+    border-radius: 10px;
+    background-color: rgba(23, 70, 162, 255);
+    /* text-align: center; */
+    color: white;
+    font-size: 18px;
+    margin-left: 0px;
+    width: 200px;
+    /* margin-top: -10px; */
+    margin-top: 10px;
+    box-shadow: 4px 11px 20px rgba(11, 6, 65, 0.5);
+  }
+  .Day1FreeTrailButton :hover {
+    background-color: white;
+    color: rgba(23, 70, 162, 255);
+  }
+  .HaveAnAccount {
+    text-align: center;
+    color: rgba(120, 120, 120, 255);
+    margin-top: 10px;
+    font-size: 18px;
+    width: 350px;
+    margin-left: 0px;
+  }
+  .SignUpCopyRight {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,181 @@
+.FullLoginPage {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.LoginPage {
+  display: flex;
+  flex-direction: row;
+}
+.UnGraduation4 {
+  font-size: 40px;
+  padding-left: 20px;
+}
+.LoginHeader {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+.BackArrow1 {
+  font-size: 30px;
+  padding-top: 33px;
+  font-weight: 900;
+  /* padding-left: 20px; */
+  color: black;
+}
+.Login {
+  font-size: 32px;
+  font-weight: bold;
+  color: #224957;
+  padding-left: 110px;
+}
+.LoginSubHeading {
+  text-align: center;
+  color: #224957;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.LoginPart4 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 170px;
+  border-radius: 20px;
+  height: fit-content;
+  padding-left: 80px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  margin-left: 150px;
+  box-shadow: 10px 11px 20px 10px rgba(11, 6, 65, 0.5);
+}
+.inputs4 {
+  color: rgba(100, 100, 100, 255);
+  margin: 10px;
+  font-size: 18px;
+  border: 1px solid white;
+  background-color: #6f85af;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 25px;
+  padding-left: 15px;
+}
+.ErrorMessage {
+  color: red;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.ForgotPass {
+  color: red;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.LoginButton {
+  border: 1px solid white;
+  background-color: #1746a2;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.LastLine {
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .FullLoginPage {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* height: max-content; */
+  }
+
+  .LoginPage {
+    display: flex;
+    flex-direction: column;
+  }
+  .UnGraduation4 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .BackArrow1 {
+    font-size: 30px;
+    /* padding-top: -30px; */
+    font-weight: 900;
+    margin-left: -50px;
+  }
+  .Login {
+    font-size: 32px;
+    font-weight: bold;
+    color: #224957;
+    margin-left: -40px;
+    /* padding-left: 110px; */
+  }
+  .LoginSubHeading {
+    text-align: center;
+    color: #224957;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: -20px;
+  }
+  .LoginPart4 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: fit-content;
+    padding-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    box-shadow: 10px 11px 20px 10px rgba(11, 6, 65, 0.5);
+  }
+  .inputs4 {
+    color: rgba(100, 100, 100, 255);
+    margin: 5px;
+    font-size: 18px;
+    border: 1px solid white;
+    background-color: #6f85af;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 25px;
+    padding-left: 15px;
+    margin-left: -50px;
+    width: 250px;
+    color: white;
+  }
+  .ErrorMessage {
+    color: red;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+  .ForgotPass {
+    color: red;
+    margin-left: -63px;
+    cursor: pointer;
+  }
+
+  .LoginButton {
+    border: 1px solid white;
+    background-color: #1746a2;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .LastLine {
+    text-align: center;
+    font-size: small;
+  }
+}
